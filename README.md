@@ -5,6 +5,9 @@ Command gotraceanalyzer turns golang tracebacks into a useful summaries.
 If you ever starred at a go panic that showed thousands of active goroutines,
 this tool will help you to make more sense of it.
 
+Summaries are created by grouping goroutines that share a common scheduler
+state and trace (as determined by file locations) together.
+
 ## Install
 
 ```bash
