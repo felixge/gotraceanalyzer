@@ -1,3 +1,6 @@
+// Command gotraceanalyzer turns huge golang tracebacks into a useful summary.
+//
+// See README.md for instructions.
 package main
 
 import (
