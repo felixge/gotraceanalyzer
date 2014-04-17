@@ -1,9 +1,9 @@
 # gotraceanlyzer
 
-Command gotraceanalyzer turns huge golang tracebacks into a useful summary. 
+Command gotraceanalyzer turns golang tracebacks into a useful summaries.
 
 If you ever starred at a go panic that showed thousands of active goroutines,
-this tool will allow you to make sense of it all.
+this tool will help you to make more sense of it.
 
 ## Install
 
