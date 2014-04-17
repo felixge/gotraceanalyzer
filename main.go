@@ -1,4 +1,4 @@
-// Command gotraceanalyzer turns golang tracebacks into a useful summaries.
+// Command gotraceanalyzer turns golang tracebacks into useful summaries.
 //
 // See README.md for instructions.
 package main
