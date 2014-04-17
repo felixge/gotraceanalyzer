@@ -1,0 +1,3126 @@
+panic: oh no
+
+goroutine 1 [running]:
+runtime.panic(0x26aa0, 0x2100e1050)
+	/usr/local/go/src/pkg/runtime/panic.c:266 +0xb6
+main.main()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:24 +0x184
+
+goroutine 3 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 4 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 5 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 6 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 7 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 8 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 9 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 10 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 11 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 12 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 13 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 14 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 15 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 16 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 17 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 18 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 19 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 20 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 21 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 22 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 23 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 24 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 25 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 26 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 27 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 28 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 29 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 30 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 31 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 32 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 33 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 34 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 35 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 36 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 37 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 38 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 39 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 40 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 41 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 42 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 43 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 44 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 45 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 46 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 47 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 48 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 49 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 50 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 51 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 52 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 53 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 54 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 55 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 56 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 57 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 58 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 59 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 60 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 61 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 62 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 63 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 64 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 65 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 66 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 67 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 68 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 69 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 70 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 71 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 72 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 73 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 74 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 75 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 76 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 77 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 78 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 79 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 80 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 81 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 82 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 83 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 84 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 85 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 86 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 87 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 88 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 89 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 90 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 91 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 92 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 93 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 94 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 95 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 96 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 97 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 98 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 99 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 100 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 101 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 102 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 103 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 104 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 105 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 106 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 107 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 108 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 109 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 110 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 111 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 112 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 113 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 114 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 115 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 116 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 117 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 118 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 119 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 120 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 121 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 122 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 123 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 124 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 125 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 126 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 127 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 128 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 129 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 130 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 131 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 132 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 133 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 134 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 135 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 136 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 137 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 138 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 139 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 140 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 141 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 142 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 143 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 144 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 145 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 146 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 147 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 148 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 149 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 150 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 151 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 152 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 153 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 154 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 155 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 156 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 157 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 158 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 159 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 160 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 161 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 162 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 163 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 164 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 165 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 166 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 167 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 168 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 169 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 170 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 171 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 172 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 173 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 174 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 175 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 176 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 177 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 178 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 179 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 180 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 181 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 182 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 183 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 184 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 185 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 186 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 187 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 188 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 189 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 190 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 191 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 192 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 193 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 194 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 195 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 196 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 197 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 198 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 199 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 200 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 201 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 202 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 203 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 204 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 205 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 206 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 207 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 208 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 209 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 210 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 211 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 212 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 213 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 214 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 215 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 216 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 217 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 218 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 219 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 220 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 221 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 222 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:20 +0x122
+
+goroutine 223 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 224 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 225 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+
+goroutine 226 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:17 +0xdc
+
+goroutine 227 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 228 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 229 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:11 +0x64
+
+goroutine 230 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+main.B()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:32 +0x1a
+main.A()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:28 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:9 +0x37
+
+goroutine 231 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/pkg/runtime/time.goc:31 +0x31
+main.Sleep()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:44 +0x26
+main.D()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:40 +0x1a
+main.C()
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:36 +0x1a
+created by main.main
+	/Users/felix/code/go/src/github.com/felixge/gotraceanalyzer/example/main.go:14 +0xab
+exit status 2
