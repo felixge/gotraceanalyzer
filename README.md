@@ -104,7 +104,6 @@ main.main()
 
 ## TODO
 
-* Test on Windows (let me know if it works for you)
 * Support ignoring unrelated lines (useful if traceback got mixed up with log messages)
 
 ## License
